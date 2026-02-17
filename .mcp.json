@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        "Running Coach Memory": {
+            "command": "uvx",
+            "args": [
+                "--from",
+                "git+ssh://git@github.com/barcia/running-coach-memory-mcp",
+                "running-coach-memory-mcp"
+            ],
+            "env": {
+                "OPENROUTER_API_KEY": "sk-or-v1-xxxx"
+            }
+        },
+        "Garmin MCP": {
+            "command": "uvx",
+            "args": [
+                "--python",
+                "3.12",
+                "--from",
+                "git+https://github.com/Taxuspt/garmin_mcp",
+                "garmin-mcp"
+            ]
+        }
+    }
+}

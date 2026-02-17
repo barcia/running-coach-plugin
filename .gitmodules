@@ -1,0 +1,9 @@
+[submodule "skills/garmin"]
+	path = skills/garmin
+	url = git@github.com:barcia/garmin-skill.git
+[submodule "skills/ical"]
+	path = skills/ical
+	url = git@github.com:barcia/ical-skill.git
+[submodule "skills/running-coach"]
+	path = skills/running-coach
+	url = git@github.com:barcia/running-coach-skill.git
